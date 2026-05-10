@@ -1,35 +1,30 @@
-# ice-cream-regression
-Modelo simples de regressão linear para prever vendas de sorvete com base na temperatura.
+# 🍦 Ice Cream Sales Prediction
 
-# Previsão de Vendas de Sorvete 🍦
+Regressão linear simples para prever vendas de sorvete com base na temperatura.
 
-Este projeto utiliza **regressão linear** para prever as vendas de sorvete com base na **temperatura**.
+## 🎯 Objetivo
+Demonstrar a relação direta entre temperatura e vendas usando um modelo simples e interpretável.
 
-## 📊 Objetivo
+## 📊 Dataset
+- Temperatura (°C)
+- Vendas (unidades)
 
-Demonstrar, de forma simples e didática, como aplicar um modelo de regressão linear em um conjunto de dados realista.
+## 🧠 Técnicas Utilizadas
+- Regressão linear simples
+- Gráfico da reta de regressão
+- Avaliação com R²
 
-## 📂 Arquivos
-
-- `ice-cream-regression.ipynb` — Notebook com:
-  - Análise exploratória (EDA)
-  - Visualização da relação Temperatura x Vendas
-  - Treinamento do modelo de Regressão Linear
-  - Avaliação do modelo (RMSE e R²)
-  - Gráfico de valores reais vs preditos
+## 🚀 Resultados
+O modelo mostrou forte correlação positiva entre temperatura e vendas.
 
 ## 🛠️ Tecnologias
+Python, Pandas, Matplotlib, Scikit-Learn
 
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-Learn  
-- Matplotlib  
-- Seaborn  
+## ▶️ Como rodar
+Clone → abra o notebook → execute
 
-## 🚀 Próximos Passos
+## 🔮 Próximos passos
+- Adicionar variáveis (dia da semana, estação)
 
-- Testar modelos polinomiais  
-- Adicionar novas variáveis (dia da semana, feriados, etc.)  
 - Comparar diferentes modelos de regressão  
 
